@@ -1,0 +1,85 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+.basic-column {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.card {
+    position: relative;
+    height: 340px;
+    padding: 30px;
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+    background-image: linear-gradient(180deg, #000, #000);
+    -webkit-transition: box-shadow 400ms ease;
+    transition: box-shadow 400ms ease;
+}
+
+.card.card2-content {
+    background-position: 100% 0;
+    background-size: cover;
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.w-col .w-col {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.w-col-3 {
+    width: 25%
+}
+
+.tag-wrapper {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.tagline {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tagline.white-hero-tagline {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:384px) {
+
+    .card.card2-content {
+        background-position: top left 30px;
+    }
+
+}

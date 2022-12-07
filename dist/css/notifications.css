@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro");
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+._4-col {
+    display: inline-block;
+    /* width: 300px; */
+    height: max-content;
+    /* margin-right: 20px; */
+}
+
+.notification-profile-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 30px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 6px 8px 7px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.notification-profilecard-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notification-profilename {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.tagline-email {
+    opacity: 0.6;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #2C3333;
+    /* text-transform: uppercase; */
+}
+
+.text-14 {
+    line-height: 24px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 11px 25px;
+    float: none;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+}
+
+.w-button {
+    display: inline-block;
+    padding: 12px 18px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none !important;
+    cursor: pointer;
+    border-radius: 0
+}
+
+.w-button:hover {
+    color: white;
+}
+
+.w-button-reply {
+    background-color: #66bff5;
+    border-radius: 75px;
+}
+
+.w-button-delete {
+    background-color: #f53535;
+    border-radius: 75px;
+}
+
+.w-button-add {
+    background-color: #00a54e;
+    border-radius: 75px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 45px;
+}

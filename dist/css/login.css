@@ -1,0 +1,242 @@
+article,
+aside,
+details,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.login {
+    max-height: 100vh;
+    overflow-Y: auto;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login .container {
+    width: 505px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login .container .login-form {
+    margin-top: 112px;
+}
+
+.login .container .login-form form {
+    display: -ms-grid;
+    display: grid;
+}
+
+.login .container .login-form form input {
+    font-size: 16px;
+    font-weight: normal;
+    background: rgba(57, 57, 57, 0.07);
+    margin: 12.5px 0;
+    height: 68px;
+    border: none;
+    padding: 0 30px;
+    border-radius: 80px;
+    width: 90%;
+}
+
+.uk-inline {
+    width: 90%;
+}
+
+.login .container .login-form form button.send {
+    background-image: linear-gradient(to right, #00aab1, #3aadb2, #54b0b3, #68b2b4, #7ab5b6);
+    width: 241px;
+    height: 58px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 80px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+.login .container .login-form form button.passwd {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    margin-left: -10%;
+}
+
+.login .container .login-form form button.send:hover::after {
+    opacity: 1;
+}
+
+.login .container .remember-form {
+    position: relative;
+    margin-top: -30px;
+}
+
+.login .container .remember-form input[type=checkbox] {
+    margin-top: 9px;
+}
+
+.login .container .remember-form label {
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    top: 32px;
+    color: #3B3B3B;
+    margin-left: 15px;
+}
+
+.login .container .forget-pass {
+    position: absolute;
+    right: 0;
+    margin-top: 184px;
+}
+
+.login .container .forget-pass a {
+    font-size: 16px;
+    position: relative;
+    font-weight: normal;
+    color: #918F8F;
+}
+
+.login .container .forget-pass a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100px;
+    background: -webkit-linear-gradient(110deg, #292c2fb9 0%, #94c7f7c7 100%);
+    background: -o-linear-gradient(110deg, #94c7f7c7 0%, #292c2fb9 100%);
+    background: linear-gradient(-20deg, #292c2fb9 0%, #94c7f7c7 100%);
+    bottom: -4px;
+    left: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+    right: 0;
+}
+
+.login .container .forget-pass a:hover::after {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
+
+
+}
+
+/* Display 12", iPad PRO Portrait, iPad landscape */
+@media only screen and (max-width: 1024px) {
+
+    .login {
+        max-height: 100vh;
+        overflow-Y: auto;
+        float: left;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .login .container {
+        width: 85%;
+        float: none;
+    }
+
+    .login .container .login-form form button.passwd {
+        font-size: 16px;
+        cursor: pointer;
+        background-color: transparent;
+        border: transparent;
+        margin-left: -12%;
+    }
+
+    .login .container .login-form {
+        margin-top: 90px;
+    }
+
+    .login .container .login-form form input {
+        height: 45px;
+        width: 80%;
+    }
+
+    .login .container .login-form .remember-form {
+        position: relative;
+        margin-top: -14px;
+    }
+
+    .login .container .login-form .remember-form label {
+        font-size: 16px;
+        margin-top: 22px;
+        top: inherit;
+    }
+
+    .forget-pass {
+        position: absolute;
+        right: inherit;
+        left: 8;
+        bottom: 95px;
+        margin: 0 !important;
+    }
+
+    .forget-pass a {
+        font-size: 16px;
+        position: relative;
+        font-weight: normal;
+        color: #918F8F;
+    }
+
+    .forget-pass a::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        border-radius: 100px;
+        background: -webkit-linear-gradient(110deg, #292c2fb9 0%, #94c7f7c7 100%);
+        background: -o-linear-gradient(110deg, #292c2fb9 0%, #94c7f7c7 100%);
+        background: linear-gradient(-20deg, #292c2fb9 0%, #94c7f7c7 100%);
+        bottom: -4px;
+        left: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        opacity: 0;
+        right: 0;
+    }
+
+    .forget-pass a:hover::after {
+        opacity: 1;
+    }
+}

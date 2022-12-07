@@ -1,0 +1,86 @@
+article,
+aside,
+details,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.signup {
+    max-height: 100vh;
+    overflow-Y: auto;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.signup .container {
+    width: 505px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup .container .signup-form {
+    margin-top: 112px;
+}
+
+.signup .container .signup-form form .uk-input {
+    font-size: 16px;
+    font-weight: normal;
+    background: rgba(57, 57, 57, 0.07);
+    margin: 12.5px 0;
+    height: 68px;
+    border: none;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.uk-form-controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.signup .container .signup-form form button {
+    background-image: linear-gradient(to right, #00aab1, #3aadb2, #54b0b3, #68b2b4, #7ab5b6);
+    width: 241px;
+    height: 58px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 75px;
+    cursor: pointer;
+}

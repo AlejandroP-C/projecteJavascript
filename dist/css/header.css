@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+
+header {
+    background-color: #f8f8f8;
+}
+
+.webpack_logo {
+    height: 40px;
+}
+
+.user_img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.user > span.uk-badge {
+    margin: -8px 0 0 -5px;
+    cursor: default;
+}
+
+.uk-navbar-center {
+    padding: 30px;
+    justify-content: space-between !important;
+    width: 100%;
+
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(232, 232, 232, 1);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(232, 232, 232, 1);
+    box-shadow: 0px 8px 5px 0px rgba(232, 232, 232, 1);
+
+}
+
+.button-group a {
+    font-family: "Hammersmith One";
+    margin: 0;
+    border: none;
+    overflow: visible;
+    color: #534f4e;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-group a:hover {
+    color: #534f4e;
+    text-decoration: none;
+}
+
+.button-group {
+    display: flex;
+    gap: 50px;
+}
+
+.user-name {
+    text-transform: uppercase;
+}
+
+.uk-badge {
+    margin-right: 11px !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .mobile {
+        height: 7vmax;
+    }
+
+}
+
+.mobile {
+    height: 10vmax;
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.mobile div.webpack_image {
+    margin-top: 21.6px;
+    margin-left: 33%;
+}
+
+.uk-dropdown-nav > li > a {
+    margin: 10px;
+    width: fit-content;
+}
+
+.uk-dropdown-nav > li > a {
+    color: #505050;
+    background: linear-gradient(currentColor 0 0) bottom /var(--d, 0) 1px no-repeat;
+    transition: 0.5s;
+}
+
+.uk-dropdown-nav > li > a:hover {
+    color: #505050;
+    --d: 100%;
+}
+
+li > a.sign-out {
+    color: red;
+}
+
+li > a.sign-out:hover {
+    color: red;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+.footer-distributed {
+    background-color: #2C3333;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+
+.footer-distributed .footer-center {
+    width: 50%;
+    margin: 5px auto;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-distributed .footer-center p {
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px;
+    font-family: "Lora";
+    font-size: 14px;
+}

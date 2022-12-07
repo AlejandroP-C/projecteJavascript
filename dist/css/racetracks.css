@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro");
+
+.racetracks {
+    width: 100%;
+    margin-top: 2% !important;
+}
+
+.flag {
+    border: 1px solid lightgrey !important;
+}
+
+.cards {
+    transform: scale(0.9);
+}
+
+.uk-card-title {
+    font-family: "Source Serif Pro";
+    font-weight: 200 !important;
+}
+
+.tag-wrapper-racetrack {
+    margin: 0;
+    padding: 0;
+}
+
+.racetrack-card {
+    border-radius: 8px;
+    box-shadow: 2px 3px 14px 5px rgba(0, 0, 0, 0.05);
+    -webkit-transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
+    transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
+    transition: transform 400ms ease, box-shadow 400ms ease;
+    transition: transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+}
+
+.label {
+    display: inline-block;
+    padding: 5px 13px 6px;
+    border-radius: 4px;
+    background-color: #4DC6E2;
+    cursor: pointer;
+}
+
+.label-text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#map { height: 380px; width: auto; }

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
+
+div.error {
+    padding: 50px 30px;
+}
+
+div.error>p {
+    font-family: "Share Tech Mono", monospace;
+    color: #838282;
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+div.error span {
+    color: #e76d2f;
+}
+
+div.error i {
+    color: #7ab5b6;
+}
+
+div.error a {
+    text-decoration: none;
+}
+
+div.error b {
+    color: #617c7c;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    div.error {
+
+        margin-top: 30%;
+
+    }
+}

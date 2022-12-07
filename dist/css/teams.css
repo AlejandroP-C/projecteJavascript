@@ -1,0 +1,125 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+.basic-column {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.card {
+    position: relative;
+    height: 340px;
+    padding: 30px;
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+    background-image: linear-gradient(180deg, #000, #000);
+    -webkit-transition: box-shadow 400ms ease;
+    transition: box-shadow 400ms ease;
+}
+
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.w-col .w-col {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.w-col-4 {
+    width: 33.33333333%
+}
+
+.team-card {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    -webkit-transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
+    transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
+    transition: transform 400ms ease, box-shadow 400ms ease;
+    transition: transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+    cursor: default;
+}
+
+.team-card-image {
+    height: 251px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 96.1%, 0.5)), to(hsla(0, 0%, 96.1%, 0.5)));
+    background-image: linear-gradient(180deg, hsla(0, 0%, 96.1%, 0.5), hsla(0, 0%, 96.1%, 0.5));
+}
+
+.team-card-image.team-card-1 {
+    background-image: url("https://etqukqiamhsbllqshgvh.supabase.co/storage/v1/object/sign/teams-logo/RepsolHonda.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZWFtcy1sb2dvL1JlcHNvbEhvbmRhLnBuZyIsImlhdCI6MTY3MDE1NDIxNSwiZXhwIjoxOTg1NTE0MjE1fQ.XoBCP9ICv3-74wIoQfzRtXkJHHihiApcNDzEnuXqTRM");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.team-card-description {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 30px 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.tag-wrapper {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.tagline.tagline-rider {
+    text-transform: none !important;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: rgba(51, 51, 51, 0.685);
+    width: auto;
+    height: auto;
+}
+
+.team-name-title {
+    font-family: "Hammersmith One";
+    margin-top: 6px;
+    padding-right: 20px;
+}
