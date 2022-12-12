@@ -80,7 +80,7 @@ const router = async (route) => {
 
                 document.title = "Página Principal";
 
-                API-API.printWithTemplate(mainPage, RENDER.createSimpleDiv(renderHome()));
+                API.printWithTemplate(mainPage, RENDER.createSimpleDiv(renderHome()));
 
                 break;
 
@@ -118,10 +118,12 @@ const router = async (route) => {
             case "#/sign-out":
 
                 localStorage.clear();
-                logoutSupabase(access_token);
+                await logoutSupabase(access_token).then( () => {
 
-                // TODO: Change  
-                setTimeout(() => { window.location.reload() }, 600);
+                    window.location.hash = '#/home';
+                    setTimeout(() => { window.location.reload() }, 600);
+
+                });
 
                 break;
 
